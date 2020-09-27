@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script src="https://kit.fontawesome.com/f51cb7acd1.js" crossorigin="anonymous"></script>
+    <title>Make a Booking</title>
+</head>
+<header>
+    <nav class="main-navbar">
+        <div class="header-container">
+        <h1 class="header-heading"><a href="./index.html">BLH </a> </h1>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./booking.html">Bookings</a> </li>
+            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href= "about.html">About Us</a></li>
+        </ul>
+        </div>
+    </nav>
+</header>
+<body class="c-background">
+    <h2 class="header-1-book">Make a Booking Today</h2>
+    <i class="fas fa-hotel"></i>
+    <div class="form-wrap">
+        <h3>Please fill in all fields</h3>
+        <div class="form-container">
+            <form action="submission" destination= (.php)>
+                <div class="form-field">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" placeholder ="First Name">
+                </div>
+                <div class="form-field">
+                    <label for="lastName" id="lastName">Last Name:</label>
+                    <input type="text" id="lastName" placeholder="Last Name">
+                </div>
+                <div class="form-field">
+                    <label for="dateOfBirth" id="dateofBith">Enter DOB here:</label>
+                    <input type="date" id="dateOfBirth">
+                </div>
+                <div class="form-field">
+                    <label for="email" id="email">Email Address:</label>
+                    <input type="email" id="email" placeholder="Enter Your email Here">
+                </div>
+                <div class="form-field">
+                    <label for="startingDate" id="startingDate">Select your preferred arrival Date:</label>
+                    <input type="date" id="startingDate">
+                </div>
+                <div class="form-field">
+                    <label for="endDate" id="endDate">Select your preferred departure Date:</label>
+                    <input type="date" id="endDate">    
+                </div>
+                <div class="form-field">
+                    <label for="roomClass" id="roomClass">Choose your preferred room size:</label>
+                    <select name="roomClass" id="roomClass">
+                        <option value="single">Single Ensemble</option>
+                        <option value="double">Double Ensemble</option>
+                        <option value="queen">Queen Ensemble</option>
+                        <option value="king">King Ensemble</option>
+                    </select>
+                </div>
+                <div class="form-field">
+
+                </div>
+                <div>
+                    <button id="btn-dark" type="submit">Payment Methods</button>
+                </div>
+            </form>
+            <p class="footer-text">By proceeding, you agree to our <a href='#'> Terms and Conditions</a>.</p>
+          </div>
+        </div>
+        <i class="fas fa-hotel"></i>
+        
+    
+</body>
+<footer>
+    <div class="footer-info-light">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, odio similique itaque veritatis officiis voluptatibus at! Optio velit nisi adipisci excepturi. A voluptatum ut hic aut dolores excepturi aliquid incidunt!</p>
+    </div>
+</footer>
+
+</html>
