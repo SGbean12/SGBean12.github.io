@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 62.5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(39, 108, 165);
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input{
+    border: none;
+    
+}
+.card{
+    background-color: rgb(160, 160, 160);
+    border: solid 1px;
+    box-shadow: 1px 1px 2px 1px ;
+    margin: 5px auto 6rem auto;
+    padding: 3rem 2rem;
+    display: flex;
+    max-width: 30%;
+    min-width: 30%;
+    max-height: 40%;
+}
+.heading{
+    text-decoration: underline;
+    margin: 1rem auto 0 1rem;
+    font-weight: lighter;
+    font-size: 4rem;
+    display: block;
+    text-align: center;
+}
+.inner-card{
+    margin: 1rem;
+    padding: 1rem;
+    border: double 6px #000;
+    background-color: #fff;
+    
+}
+.card-content{
+    font-size: 2rem;
+}
+#loan-amount, #loan-i-type, #loan-i, #loan-per, #total-p, #total-in, #m-pay{
+    background-color: #fff;
+    color: #000;
+    font-size: 2rem;
+    width:100%;
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 1px 1rem 0 5px;
+    margin: 1rem 0 1rem 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn{
+    color: #333;
+    font-size: 3rem;
+    background-color: rgb(255, 210, 86);
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    border: solid 1px #333;
+    border-radius: 3px;
+    width: 15rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+}
+.btn:hover{
+    background-color: rgb(253, 219, 125);
+    color: #333;
+    cursor: pointer;
+}
+.i-results {
+    display: none;
+    list-style: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 2rem;
+    width:100%;
+    border: solid 2px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 1px 1rem 0 5px;
+    margin: 1rem 0 1rem 0;
+
+}
