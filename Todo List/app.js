@@ -1,5 +1,5 @@
 //UI Variables:
- const form = document.querySelector(".task-form");
+const form = document.querySelector(".task-form");
 const taskList = document.querySelector(".collection");
 const clearBtn = document.querySelector(".clear");
 const filter = document.querySelector("#Filter");
@@ -25,6 +25,7 @@ function addTask(e){
     const li = document.createElement('li');
     li.className = 'collection-item';
     li.appendChild(document.createTextNode(taskInput.value));
+    
     const link = document.createElement('a');
     link.className="delete-li";
     link.innerHTML='<i class="fas fa-ban"></i>';
