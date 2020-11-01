@@ -6,3 +6,5 @@
  upload of a simple interest loan calculator.
  07/10/2020
  upload of bsic html/css markup with Js for scrolling
+ 02/11/2020
+ upload of form validation using regular exp's
